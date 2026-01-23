@@ -12,7 +12,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #789c83;
+    background-color: #ffffff;
 }
 [data-testid="stSidebar"] {
     background-color: #f6f3ec;
