@@ -21,6 +21,13 @@ st.markdown("""
 
 st.title("AI for Comparative Price Analysis in Interior Design")
 
+
+
+# Load data
+df = pd.read_csv("interior_design_prices.csv", parse_dates=["Date"])
+future_summary = pd.read_csv("future_summary_next12m.csv")
+eval_df = pd.read_csv("evaluation_summary.csv")
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -30,11 +37,6 @@ with col1:
 with col2:
     st.subheader("Evaluation Metrics")
     st.dataframe(eval_df)
-
-# Load data
-df = pd.read_csv("interior_design_prices.csv", parse_dates=["Date"])
-future_summary = pd.read_csv("future_summary_next12m.csv")
-eval_df = pd.read_csv("evaluation_summary.csv")
 
 # Sidebar
 st.sidebar.header("Controls")
