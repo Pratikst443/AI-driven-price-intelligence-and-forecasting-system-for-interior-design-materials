@@ -21,7 +21,7 @@ h1, h2, h3 {
     color: #545454;
 }
 p, li {
-    color: #789c83;
+    color: #ffffff;
 }
 </style>
 """, unsafe_allow_html=True)
