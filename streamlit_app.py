@@ -25,7 +25,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Historical Trend")
-    st.ptplot(fig)
+    st.pyplot(fig)
 
 with col2:
     st.subheader("Evaluation Metrics")
