@@ -28,15 +28,7 @@ df = pd.read_csv("interior_design_prices.csv", parse_dates=["Date"])
 future_summary = pd.read_csv("future_summary_next12m.csv")
 eval_df = pd.read_csv("evaluation_summary.csv")
 
-col1, col2 = st.columns(2)
 
-with col1:
-    st.subheader("Historical Trend")
-    st.pyplot(fig)
-
-with col2:
-    st.subheader("Evaluation Metrics")
-    st.dataframe(eval_df)
 
 # Sidebar
 st.sidebar.header("Controls")
@@ -59,6 +51,15 @@ ax.set_ylabel("Price (INR)")
 ax.set_title(f"{category} Price Trend")
 st.pyplot(fig)
 
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader("Historical Trend")
+    st.pyplot(fig)
+
+with col2:
+    st.subheader("Evaluation Metrics")
+    st.dataframe(eval_df)
 
 # Forecast Summary
 
