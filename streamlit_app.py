@@ -94,6 +94,8 @@ category = st.sidebar.selectbox(
 
 
 # Historical Trend
+# Get category-specific data
+cat_df = df[df["Category"] == category]
 
 st.markdown(
     f"<h2 style='color:#789c83;'>Historical Price Trend: {category}</h2>",
