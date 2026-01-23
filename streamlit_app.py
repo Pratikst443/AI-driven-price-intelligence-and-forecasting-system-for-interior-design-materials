@@ -69,31 +69,6 @@ div.stButton > button:hover {
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown(
-    "<h2 style='color:#789c83;'>Model Evaluation Metrics (2024)</h2>",
-    unsafe_allow_html=True
-)
-
-styled_eval = (
-    eval_df.style
-    .set_properties(**{
-        "background-color": "#f6f3ec",
-        "color": "#545454",
-        "border-color": "#789c83"
-    })
-    .set_table_styles([
-        {
-            "selector": "th",
-            "props": [
-                ("background-color", "#789c83"),
-                ("color", "white"),
-                ("font-weight", "bold")
-            ]
-        }
-    ])
-)
-
-st.dataframe(styled_eval, use_container_width=True)
 
 st.markdown("""
 <h1 style="color:#789c83; font-weight:700;">
