@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.maekdown("""
+st.markdown("""
 <style>
     .main {
             background-color: #f6f3ec;
