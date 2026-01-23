@@ -144,7 +144,7 @@ st.markdown(
     f"<h2 style='color:#789c83;'>Key Observations: {category}</h2>",
     unsafe_allow_html=True
 )
-st.markdown(""")
+st.markdown("""
 - Lighting and Flooring show the lowest forecasting error.
 - Decor is more volatile, leading to slightly higher errors.
 - Overall model performance is strong with low MAE and RMSE.
