@@ -11,18 +11,38 @@ st.set_page_config(
 
 st.markdown("""
 <style>
+
+/* App background */
 [data-testid="stAppViewContainer"] {
-    background-color: #ffffff;
+    background-color: #f6f3ec;
 }
+
+/* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: #789c83;
+    background-color: #e7efe9;
 }
-h1, h2, h3 {
-    color: #545454;
+
+/* Title (st.title) */
+[data-testid="stMarkdown"] h1 {
+    color: #789c83 !important;
 }
-p, li {
-    color: #789c83;
+
+/* Subheaders (st.subheader) */
+[data-testid="stMarkdown"] h2 {
+    color: #789c83 !important;
 }
+
+/* Smaller headers */
+[data-testid="stMarkdown"] h3 {
+    color: #789c83 !important;
+}
+
+/* Normal text */
+[data-testid="stMarkdown"] p,
+[data-testid="stMarkdown"] li {
+    color: #3e4f4b;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
