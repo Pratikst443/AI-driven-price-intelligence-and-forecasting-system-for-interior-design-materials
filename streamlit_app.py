@@ -3,9 +3,33 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Page config
-st.set_page_config(page_title="Interior Price Trend Dashboard", layout="wide")
+st.set_page_config(
+    page_title="Interior Design Market Trends", 
+    layout="wide"
+)
+
+st.maekdown("""
+<style>
+    .main {
+            background-color: #f6f3ec;
+    }
+    h1, h2, h3 {
+        color: #789c83;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 st.title("AI for Comparative Price Analysis in Interior Design")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader("Historical Trend")
+    st.ptplot(fig)
+
+with col2:
+    st.subheader("Evaluation Metrics")
+    st.dataframe(eval_df)
 
 # Load data
 df = pd.read_csv("interior_design_prices.csv", parse_dates=["Date"])
