@@ -8,14 +8,21 @@ st.set_page_config(
     layout="wide"
 )
 
+
 st.markdown("""
 <style>
-    .main {
-            background-color: #f6f3ec;
-    }
-    h1, h2, h3 {
-        color: #789c83;
-    }
+[data-testid="stAppViewContainer"] {
+    background-color: #f6f3ec;
+}
+[data-testid="stSidebar"] {
+    background-color: #f6f3ec;
+}
+h1, h2, h3 {
+    color: #789c83;
+}
+p, li {
+    color: #545454;
+}
 </style>
 """, unsafe_allow_html=True)
 
