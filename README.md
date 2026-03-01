@@ -4,11 +4,11 @@
 
 #Interior design costs change significantly over time. This project applies AI driven time series forecasting to analyze pricing patterns from old dataset and predict future trends using Prophet.
 
-**Live Streamlit Application:**
+**Live Streamlit Application**
 https://ai-comparativepriceanalysisinteriordesign-icqtsasyduzeaxxblrea.streamlit.app
 
 **GitHub Repository** 
-
+https://github.com/Pratikst443/AI-driven-price-intelligence-and-forecasting-system-for-interior-design-materials
 
 #Objectives:
 - Compare historical pricing trends across categories
@@ -26,10 +26,10 @@ https://ai-comparativepriceanalysisinteriordesign-icqtsasyduzeaxxblrea.streamlit
 2. Exploratory Data Analysis (comparative line plots)
 3. Growth & Volatility analysis (CAGR, monthly returns)
 4. Forecasting with Prophet
-5. Visualization of results
+5. Visualization of results through Streamlit dashboard
 
 #Tools & Libraries:
-- Python, Google Colab
+- Python, Google Colab, Streamlit
 - pandas, matplotlib, seaborn
 - prophet
 
@@ -50,7 +50,12 @@ https://ai-comparativepriceanalysisinteriordesign-icqtsasyduzeaxxblrea.streamlit
 - interior_design_prices.csv                                      # dataset
 - all_category_forecast_next12m.csv                               # forecast output (generated)
 - README.md                                                       # documentation
+- streamlit_app.py                                                # streamlit executable web application
 
 6.Future scope:
-- Use of real world datasets
-- Build interactive dashboard
+- Integration of real-world market pricing datasets from public and commercial sources
+- Automated data collection and periodic dataset updates
+- Implementation of advanced forecasting models (ARIMA, hybrid models)
+- Cloud deployment for scalable real-time analytics
+- Development of recommendation-based decision support for interior budgeting
+- Regional price comparison across cities and suppliers
