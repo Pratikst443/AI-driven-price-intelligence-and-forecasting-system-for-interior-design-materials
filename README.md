@@ -1,8 +1,14 @@
-# AI-COMPARATIVE_PRICE_ANALYSIS_INTERIOR_DESIGN
+# AI-Based Interior Design Material Price Forecasting System
 
-1. AI project for market trend analysis in Interior Design
+1. An AI-driven system for comparative price analysis and market trend forecasting of interior design materials using time-series modeling.
 
 #Interior design costs change significantly over time. This project applies AI driven time series forecasting to analyze pricing patterns from old dataset and predict future trends using Prophet.
+
+**Live Streamlit Application:**
+https://ai-comparativepriceanalysisinteriordesign-icqtsasyduzeaxxblrea.streamlit.app
+
+**GitHub Repository** 
+
 
 #Objectives:
 - Compare historical pricing trends across categories
