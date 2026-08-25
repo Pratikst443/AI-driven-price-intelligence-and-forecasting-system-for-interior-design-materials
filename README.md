@@ -260,20 +260,20 @@ and are loaded dynamically by the Streamlit application based on the selected su
 
 # 10. Installation
 Prerequisites
-Make sure the following are installed:
+1. Make sure the following are installed:
 - Python
 - pip
 - Git
 
-Clone the repository:
+2. Clone the repository:
 
 git clone https://github.com/Pratikst443/AI-driven-price-intelligence-and-forecasting-system-for-interior-design-materials.git
 
-Navigate into the project directory:
+3. Navigate into the project directory:
 
 cd AI-driven-price-intelligence-and-forecasting-system-for-interior-design-materials
 
-Create and activate a virtual environment if required:
+4. Create and activate a virtual environment if required:
 
 macOS / Linux:
 python3 -m venv venv
@@ -283,7 +283,7 @@ Windows:
 python -m venv venv
 venv\Scripts\activate
 
-Install the required dependencies:
+5. Install the required dependencies:
 pip install -r requirements.txt
 
 The project's dependency file includes Streamlit, Pandas, NumPy, Plotly, Prophet, Statsmodels, Scikit-learn, and TensorFlow.
