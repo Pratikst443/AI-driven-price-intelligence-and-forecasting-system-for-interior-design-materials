@@ -346,10 +346,10 @@ The generated outputs from the forecasting pipeline are subsequently used by the
 # 15. Reproducibility
 
 To reproduce the dashboard:
-1.Clone the GitHub repository.
-2.Install the dependencies using requirements.txt.
-3.Ensure the required data and generated forecast CSV files are available under the data/ directory.
-4.Run the Streamlit application using:
+1. Clone the GitHub repository.
+2. Install the dependencies using requirements.txt.
+3. Ensure the required data and generated forecast CSV files are available under the data/ directory.
+4. Run the Streamlit application using:
 streamlit run Home.py
 
 The dashboard reads the stored datasets and forecast outputs using the project's utility functions.
