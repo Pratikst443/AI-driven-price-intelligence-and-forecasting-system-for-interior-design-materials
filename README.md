@@ -154,6 +154,8 @@ Development Tools:
 
 The project follows a data-processing, forecasting, evaluation, and visualization workflow:
 
+'''text
+
 Raw / Historical Dataset
           │
           ▼
@@ -191,7 +193,10 @@ Raw / Historical Dataset
                                 ▼
                            Insights
 
+'''
 # 8. Project Structure
+'''text
+
 AI Forecasting Dashboard/
 │
 ├── .gitignore
@@ -235,7 +240,7 @@ AI Forecasting Dashboard/
 ├── style.css
 ├── requirements.txt
 └── README.md
-
+'''
 The application uses utils.py to load the dataset, analysis summaries, model evaluations, and forecast outputs from the data directory.
 
 # 9. Data and Forecast Outputs
