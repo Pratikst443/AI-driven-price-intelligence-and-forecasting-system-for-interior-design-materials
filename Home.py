@@ -77,7 +77,7 @@ if subcategory != "All":
 
 
 st.image(
-    "images/BLUE.png",
+    "Images/BLUE.png",
     width=300
 )
 
